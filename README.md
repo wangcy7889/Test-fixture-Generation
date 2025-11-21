@@ -73,6 +73,3 @@ MODEL = "your-model-name"
 ```
 
 For the contents of each folder, please refer to the Python section description above.
-
-## Requirements
-
