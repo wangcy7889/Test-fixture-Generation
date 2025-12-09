@@ -12,9 +12,9 @@ FACEIT is open for research purposes, enabling thorough evaluation of LLMs' capa
 
 The experimental evaluation is conducted on FixtureEval, a benchmark specifically designed to address the lack of fixture-aware metrics in existing datasets. As shown in the directory structure, the benchmark comprises three distinct components:
 
-- **FixtureEval<sub>Github</sub>** (`dataset/github`): Contains real-world Python functions collected from popular repositories to evaluate performance in realistic scenarios.
-- **FixtureEval<sub>Leakage-Free</sub>**  (`dataset/leakage-free`): Consists of functions meticulously constructed by experts. This subset serves as a rigorous safeguard against data leakage, ensuring that LLMs cannot rely on memorized training data.
-- **FixtureEval<sub>Java</sub>** (`dataset/java`): A Java extension of the benchmark used to evaluate FACEIT's cross-language generalization capability.
+- **FixtureEval<sub>G</sub>** (`dataset/github`): Contains real-world Python functions collected from popular repositories to evaluate performance in realistic scenarios.
+- **FixtureEval<sub>L</sub>**  (`dataset/leakage-free`): Consists of functions meticulously constructed by experts. This subset serves as a rigorous safeguard against data leakage, ensuring that LLMs cannot rely on memorized training data.
+- **FixtureEval<sub>J</sub>** (`dataset/java`): A Java extension of the benchmark used to evaluate FACEIT's cross-language generalization capability.
 
 ## Environmental Requirements
 
