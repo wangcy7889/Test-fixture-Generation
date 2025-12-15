@@ -84,8 +84,8 @@ def generate_test_input(original_code, previous_attempt=None, error_message=None
     if model_name is None:
         raise Exception("model name not specified")
     prompt = f"""
-    Generate a correct function call example for the following Python function.
-    Ensure the function is already provided before the call,so do not show or import the function code.
+    Generate an executable function call example for the following Python function. 
+    Given that the function is already provided before the call, do not show or import the function code.
 
     Function code:
     ```python
