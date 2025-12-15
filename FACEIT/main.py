@@ -31,6 +31,5 @@ def main():
 
     print("\nAll script execution completed！")
 
-
 if __name__ == "__main__":
     main()

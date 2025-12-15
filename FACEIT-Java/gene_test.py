@@ -17,7 +17,6 @@ MAX_R = 1
 
 LICENSE_TEXT = ""
 
-
 def extract_method_info(json_path: str):
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)

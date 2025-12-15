@@ -4,7 +4,6 @@ import multiprocessing
 import os
 import re
 import shutil
-
 import pytest
 from io import StringIO
 import contextlib

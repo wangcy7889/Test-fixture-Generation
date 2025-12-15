@@ -12,7 +12,6 @@ def parse_args():
     parser.add_argument('--model', required=True, help='Model name to use for generation')
     return parser.parse_args()
 
-
 def copy_non_test_files(source_dirs, dest_dir):
     if not isinstance(source_dirs, list):
         source_dirs = [source_dirs]

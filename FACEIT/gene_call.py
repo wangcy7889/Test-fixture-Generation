@@ -86,7 +86,6 @@ def generate_test_input(original_code, previous_attempt=None, error_message=None
     prompt = f"""
     Generate an executable function call example for the following Python function. 
     Given that the function is already provided before the call, do not show or import the function code.
-
     Function code:
     ```python
     {original_code}

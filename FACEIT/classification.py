@@ -5,7 +5,6 @@ import shutil
 import subprocess
 import time
 import argparse
-
 from openai import OpenAI
 
 input_folder1 = 'dataSet/fixture-dependent'

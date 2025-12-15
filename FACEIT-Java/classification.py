@@ -14,7 +14,6 @@ MAVEN_LOCAL_REPO = ""
 MAVEN_CMD = ""
 MODEL = ""
 MAX_R = 1
-
 LICENSE_TEXT = ""
 
 def extract_method_info(json_path: str):

@@ -42,8 +42,8 @@ def extract_method_info(json_path: str):
 
 def generate_test_input(code, filename, previous_input=None, error_message=None):
     prompt = f"""
-               Generate a correct function call example for the following Java function.
-               Ensure the function is already provided before the call,so do not show or import the function code.
+               Generate an executable function call example for the following Python function. 
+               Given that the function is already provided before the call, do not show or import the function code.
                The file package name is package classifier; the class name is public class Invocation. 
                The main function is written in the Invocation class.
                Function code:{code}
