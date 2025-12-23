@@ -2,11 +2,11 @@
 
 ## Introduction
 
-FACEIT is the first fixture-aware automated test generation framework described in the paper "FACEIT: Bridging the Fixture Gap in Test Generation"
+Fixturize is the first fixture-aware automated test generation framework described in the paper "Fixturize: Bridging the Fixture Gap in Test Generation"
 
-FACEIT addresses the critical "Fixture Gap" in unit testing by treating fixture construction as a proactive diagnostic process. It introduces FixtureEval, the first benchmark explicitly designed to measure fixture reasoning capabilities. FixtureEval consists of 600 functions drawn from 20 popular GitHub repositories, complemented by a manually implemented leakage-free subset to prevent data contamination. Each function is precisely annotated with its fixture dependency, enabling a dual evaluation on both classification and generation capability.
+Fixturize addresses the critical "Fixture Gap" in unit testing by treating fixture construction as a proactive diagnostic process. It introduces FixtureEval, the first benchmark explicitly designed to measure fixture reasoning capabilities. FixtureEval consists of 600 functions drawn from 20 popular GitHub repositories, complemented by a manually implemented leakage-free subset to prevent data contamination. Each function is precisely annotated with its fixture dependency, enabling a dual evaluation on both classification and generation capability.
 
-FACEIT is open for research purposes, enabling thorough evaluation of LLMs' capabilities in autonomously constructing multi-step fixture environments and executable unit tests.
+Fixturize is open for research purposes, enabling thorough evaluation of LLMs' capabilities in autonomously constructing multi-step fixture environments and executable unit tests.
 
 ## Dataset
 
@@ -14,11 +14,11 @@ The experimental evaluation is conducted on FixtureEval, a benchmark specificall
 
 - **FixtureEval<sub>G</sub>** (`dataset/github`): Contains real-world Python functions collected from popular repositories to evaluate performance in realistic scenarios.
 - **FixtureEval<sub>L</sub>**  (`dataset/leakage-free`): Consists of functions meticulously constructed by experts. This subset serves as a rigorous safeguard against data leakage, ensuring that LLMs cannot rely on memorized training data.
-- **FixtureEval<sub>J</sub>** (`dataset/java`): A Java extension of the benchmark used to evaluate FACEIT's cross-language generalization capability.
+- **FixtureEval<sub>J</sub>** (`dataset/java`): A Java extension of the benchmark used to evaluate Fixturize's cross-language generalization capability.
 
 ## Environmental Requirements
 
-- Python 3.12+ for FACEIT
+- Python 3.12+ for Fixturize
 - To run Pynguin, we use Python 3.10.18, while keeping all other settings unchanged.
 - For CoverUp, we adhered to the default settings. See https://github.com/plasma-umass/coverup-eval
 
