@@ -9,6 +9,7 @@ alphashape==1.3.1
 altgraph==0.17.4
 anaconda-anon-usage @ file:///croot/anaconda-anon-usage_1749054771823/work
 aniso8601==10.0.1
+anndata==0.12.7
 annotated-types @ file:///croot/annotated-types_1709542908624/work
 ansible==11.8.0
 ansible-core==2.18.7
@@ -16,7 +17,9 @@ anthropic==0.60.0
 antlr4-python3-runtime==4.9.3
 anyio==4.9.0
 archspec @ file:///croot/archspec_1709217642129/work
+array-api-compat==1.12.0
 arrow==1.3.0
+asciitree==0.3.3
 asyncio==3.4.3
 asyncpg==0.30.0
 attrs==25.3.0
@@ -61,6 +64,7 @@ Cython==0.29.37
 dask==2025.7.0
 decorator==5.2.1
 defusedxml==0.7.1
+Deprecated==1.3.1
 distro @ file:///croot/distro_1714488253808/work
 dnspython==2.7.0
 einops==0.8.1
@@ -69,6 +73,7 @@ fake-http-header==0.3.5
 fake-useragent==2.2.0
 fancycompleter==0.11.1
 fastapi==0.116.1
+fasteners==0.20
 filelock==3.18.0
 Flask==3.1.1
 Flask-RESTful==0.3.10
@@ -79,6 +84,7 @@ frozenlist==1.7.0
 fsspec==2025.7.0
 gensim==4.3.3
 gevent==25.5.1
+gguf==0.17.1
 ghp-import==2.1.0
 Gooey==1.0.8.1
 googletrans==4.0.2
@@ -88,6 +94,7 @@ graphql-relay==3.2.0
 greenlet==3.2.3
 h11==0.16.0
 h2==4.2.0
+h5py==3.15.1
 hf-xet==1.1.5
 hpack==4.1.0
 html5lib==1.0b10
@@ -122,6 +129,7 @@ langgraph-sdk==0.2.0
 langsmith==0.4.8
 lark==1.2.2
 latex2sympy2_extended==1.10.2
+legacy-api-wrap==1.5
 libmambapy @ file:///croot/mamba-split_1734469461757/work/libmambapy
 litellm==1.74.7
 llvmlite==0.44.0
@@ -143,9 +151,12 @@ mkdocs-get-deps==0.2.0
 mock==5.2.0
 mpmath==1.3.0
 multidict==6.6.3
+natsort==8.4.0
+neo==0.14.3
 networkx==3.5
 nltk==3.9.1
 numba==0.61.2
+numcodecs==0.15.1
 numdifftools==0.9.41
 numpy==2.2.6
 nvidia-cublas-cu12==12.6.4.1
@@ -180,6 +191,7 @@ pillow==11.3.0
 platformdirs @ file:///croot/platformdirs_1744273042065/work
 playwright==1.54.0
 pluggy @ file:///croot/pluggy_1733169602837/work
+probeinterface==0.3.1
 propcache==0.3.2
 Protego==0.5.0
 psutil==7.0.0
@@ -201,6 +213,7 @@ pygtrie==2.5.0
 pyinstaller==6.14.2
 pyinstaller-hooks-contrib==2025.8
 pymongo==4.13.2
+pynndescent==0.5.13
 pyocr==0.8.5
 pyod==2.0.5
 pyOpenSSL==25.1.0
@@ -222,10 +235,12 @@ pytest-twisted==1.14.3
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 python-oembed==0.2.4
+python-pptx==1.0.2
 pytz==2025.2
 PyYAML==6.0.2
 pyyaml_env_tag==1.1
 qrcode==8.2
+quantities==0.16.2
 queuelib==1.8.0
 rank-bm25==0.2.2
 redis==6.2.0
@@ -245,12 +260,15 @@ rtree==1.4.0
 ruamel.yaml @ file:///croot/ruamel.yaml_1745960305322/work
 ruamel.yaml.clib @ file:///croot/ruamel.yaml.clib_1745937152469/work
 s3transfer==0.13.1
+scanpy==1.11.5
 schematics==2.1.1
 scikit-learn==1.7.1
 scipy==1.13.1
 Scrapy==2.13.3
+seaborn==0.13.2
 selenium==4.34.2
 service-identity==24.2.0
+session-info2==0.3
 setuptools==78.1.1
 shapely==2.1.1
 shellingham==1.5.4
@@ -262,8 +280,10 @@ snowballstemmer==2.2.0
 sortedcontainers==2.4.0
 soundfile==0.13.1
 soupsieve==2.7
+spikeinterface==0.103.2
 SQLAlchemy==2.0.41
 starlette==0.47.2
+statsmodels==0.14.6
 sympy==1.14.0
 tabulate==0.9.0
 tenacity==9.1.2
@@ -291,6 +311,7 @@ typing==3.7.4.3
 typing-inspection @ file:///croot/typing-inspection_1746023470701/work
 typing_extensions==4.14.1
 tzdata==2025.2
+umap-learn==0.5.9.post2
 urllib3 @ file:///croot/urllib3_1750775463400/work
 utils==1.0.2
 w3lib==2.3.1
@@ -306,9 +327,11 @@ wrapt==1.17.2
 wsproto==1.2.0
 wxPython==4.2.3
 xgboost==3.0.3
+xlsxwriter==3.2.9
 xpinyin==0.7.7
 xxhash==3.5.0
 yarl==1.20.1
+zarr==2.18.7
 zipp==3.23.0
 zope.event==5.1.1
 zope.interface==7.2
