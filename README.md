@@ -1,4 +1,4 @@
-# Text-fixture-Generation
+# text-fixture-generation
 
 ## Introduction
 
