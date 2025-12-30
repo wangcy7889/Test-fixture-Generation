@@ -4,7 +4,7 @@
 
 Fixturize is the first fixture-aware automated test generation framework described in the paper "Fixturize: Bridging the Fixture Gap in Test Generation"
 
-Fixturize addresses the critical "Fixture Gap" in unit testing by treating fixture construction as a proactive diagnostic process. It introduces FixtureEval, the first benchmark explicitly designed to measure fixture reasoning capabilities. FixtureEval consists of 600 functions drawn from 40 popular GitHub repositories, complemented by a manually implemented leakage-free subset to prevent data contamination. Each function is precisely annotated with its fixture dependency, enabling a dual evaluation on both classification and generation capability.
+Fixturize addresses the critical "Fixture Gap" in unit testing by treating fixture construction as a proactive diagnostic process. It introduces FixtureEval, the first benchmark explicitly designed to measure fixture reasoning capabilities. FixtureEval consists of 600 functions drawn from 44 popular GitHub repositories, complemented by a manually implemented leakage-free subset to prevent data contamination. Each function is precisely annotated with its fixture dependency, enabling a dual evaluation on both classification and generation capability.
 
 Fixturize is open for research purposes, enabling thorough evaluation of LLMs' capabilities in autonomously constructing multi-step fixture environments and executable unit tests.
 
